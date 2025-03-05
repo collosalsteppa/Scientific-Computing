@@ -10,7 +10,7 @@ L = 3*x**2 + 2*x - 5
 L_prime = sp.diff(L, x)
 print(f"First derivative (gradient): L'(x) = {L_prime}")
 
-# Solve for x when the gradient is zero (optimal solution)
+# Solve for x when the gradient is zero
 critical_points = sp.solve(L_prime, x)
 print(f"Critical points (where gradient is zero): {critical_points}")
 
